@@ -1,10 +1,10 @@
-package impl2
+package main
 
 import (
-	"github.com/shashank-priyadarshi/go-plugin/common"
+	"github.com/shashank-priyadarshi/go-plugin/app/common"
 )
 
-// go build -buildmode=plugin -o ../app/impl2.so .
+// go build -buildmode=plugin -o ./impl2.so .
 
 type calculator struct {
 	common.Calculator

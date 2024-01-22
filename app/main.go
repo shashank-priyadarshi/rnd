@@ -1,9 +1,9 @@
-package app
+package main
 
 import (
 	"fmt"
 
-	"github.com/shashank-priyadarshi/go-plugin/common"
+	"github.com/shashank-priyadarshi/go-plugin/app/common"
 )
 
 func main() {
