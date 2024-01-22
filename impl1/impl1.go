@@ -12,6 +12,30 @@ type calculator struct {
 	common.Calculator
 }
 
+func (c *calculator) Add(args ...int) int {
+	var result int
+
+	for _, arg := range args {
+		result += arg
+	}
+
+	return result
+}
+
+func (c *calculator) Sub(x, y int) int {
+	return x - y
+}
+
+func (c *calculator) Mul(args ...int) int {
+	var result int
+
+	for _, arg := range args {
+		result *= arg
+	}
+
+	return result
+}
+
 func NewCalculator() *calculator {
 	return &calculator{}
 }

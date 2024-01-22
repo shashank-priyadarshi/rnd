@@ -18,9 +18,9 @@ func main() {
 	}
 
 	result := calc.Add(add...)
-	fmt.Print("addition result: ", result)
+	fmt.Println("addition result: ", result)
 	result = calc.Sub(sub[0], sub[1])
-	fmt.Print("subtraction result: ", result)
+	fmt.Println("subtraction result: ", result)
 	result = calc.Mul(mul...)
-	fmt.Print("multiplication result: ", result)
+	fmt.Println("multiplication result: ", result)
 }
