@@ -4,7 +4,9 @@ import (
 	"github.com/shashank-priyadarshi/go-plugin/app/common"
 )
 
-// go build -buildmode=plugin -o ./impl1.so .
+// go build -buildmode=plugin -o ../app/impl1.so .
+
+var Calculator calculator
 
 type calculator struct {
 	common.Calculator

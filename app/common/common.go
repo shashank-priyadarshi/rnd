@@ -7,7 +7,7 @@ import (
 
 const (
 	PLUGIN_PATH     = "impl1.so"
-	PLUGIN_FUNCTION = "NewCalculator"
+	PLUGIN_FUNCTION = "Calculator"
 )
 
 type Calculator interface {
