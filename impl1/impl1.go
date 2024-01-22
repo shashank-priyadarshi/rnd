@@ -1,7 +1,7 @@
 package impl1
 
 import (
-	"github.com/shashank-priyadarshi/go-plugin/app/common"
+	"github.com/shashank-priyadarshi/go-plugin/common"
 )
 
 // go build -buildmode=plugin -o ../app/impl1.so .

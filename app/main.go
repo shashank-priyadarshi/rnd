@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 
-	"github.com/shashank-priyadarshi/go-plugin/app/common"
+	"github.com/shashank-priyadarshi/go-plugin/common"
 )
 
 func main() {
