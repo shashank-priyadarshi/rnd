@@ -35,7 +35,3 @@ func (c *calculator) Mul(args ...int) int {
 
 	return result
 }
-
-func NewCalculator() *calculator {
-	return &calculator{}
-}
