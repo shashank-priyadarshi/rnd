@@ -1,6 +1,7 @@
-go 1.21.0
+go 1.21
 
 use (
-	./app
-	./impl1
+	./bench
+	./plugins/app
+	./plugins/impl1
 )

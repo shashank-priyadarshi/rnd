@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+// protoc --proto_path=./common --go_out=./common --go-grpc_out=./common --go_opt=paths=source_relative ./common/sample.proto
+
+// path to generated proto files
+option go_package = "./";
+
+// package name for generated go proto code
+package common;
+
+message RequestMessage {
+  string name = 1;
+  int64 time = 2;
+  bytes payload = 3;
+}
+
+message ResponseMessage{
+  string message = 1;
+  bytes payload = 2;
+}
+
+service Benchmarking{
+  rpc Bidirectional(stream RequestMessage) returns (stream ResponseMessage);
+}
