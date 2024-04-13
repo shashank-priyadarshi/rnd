@@ -9,7 +9,7 @@ require (
 	github.com/redis/go-redis/v9 v9.4.0
 	github.com/tsenart/vegeta v12.7.0+incompatible
 	google.golang.org/grpc v1.61.0
-	google.golang.org/protobuf v1.32.0
+	google.golang.org/protobuf v1.33.0
 )
 
 require (
